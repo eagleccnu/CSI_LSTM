@@ -1,0 +1,9 @@
+This program is to predict protein secondary structure based on NMR chemical shifts of protein.
+The NMR chemical shifts is provided by NMRSTAR file (see BMRB website).
+
+To run this program, python and some python modules should be setup: pytorch, numpy, scikit-learn, pandas, and pynmrstar.
+
+usage: python pred_on_nmrstar_v2.py NMRSTAR_file
+
+sample: python pred_on_nmrstar_v2.py 2jxp_15568_v3.str
+
